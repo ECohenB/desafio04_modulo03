@@ -1,0 +1,27 @@
+
+.container {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "hero"
+      "about"
+      "footer";
+    grid-gap: 2rem;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .hero {
+    grid-area: hero;
+  }
+  
+  .about {
+    grid-area: about;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  

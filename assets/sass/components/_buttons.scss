@@ -1,0 +1,25 @@
+.header__button--register {
+  background-color: $color-shiny-shamrock;
+  font-family: 'PT Mono', monospace;
+  color:$color-white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($color-shiny-shamrock, 10%);
+  }
+}
+
+.header__button--login {
+  background-color: $color-white;
+  font-family: 'PT Mono', monospace;
+  color: $color-spanish-gray;
+  padding: 5px 10px;
+  border-color: $color-spanish-gray;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($color-white, 10%);
+  }
+}

@@ -1,0 +1,21 @@
+@import 'abstracts/variables';
+$primary: $color-shiny-shamrock;    // El color principal
+$secondary: $color-coral;           // El color secundario
+$success: $color-buff;              // Color para éxito
+$danger: $color-flame;              // Color para peligro
+$warning: $color-buff;              // Color de advertencia
+$info: $color-blue-de-france;       // Color para información
+$light: $color-isabelline;          // Color claro
+$dark: $color-black;                // Color oscuro
+$white: $color-white;               // Color blanco
+$azul: $color-blue-jeans;           // Color del océano
+$pink: $color-pink;                 // Color de sass
+$purple: $color-purple;             // Color de bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import 'base/media-queries';
+@import 'base/typography';
+@import 'layout/hero';
+@import 'layout/header';
+@import 'pages/pages';
+@import 'pages/projects';
+@import 'pages/contact';

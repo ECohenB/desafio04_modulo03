@@ -1,0 +1,68 @@
+.hero {
+  background-color: $light; 
+  padding: 4rem 0;
+  
+ 
+  &__container {
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+    @include media-breakpoint-down(md) {
+      flex-direction: column-reverse; 
+    }
+    @include media-breakpoint-up(md) {
+      flex-direction: row; 
+  }
+  }
+
+  &__content {
+    max-width: 50%;
+
+    @include media-breakpoint-down(md) {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $azul;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    font-size: 1.75rem;
+    color: $info;
+    margin-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: $dark;
+    margin-bottom: 2rem;
+  }
+
+  &__cta {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  &__image {
+    max-width: 80%;
+
+    img {
+      width: 80%;
+      height: auto;
+    }
+
+    @include media-breakpoint-down(md) {
+      max-width: 80%;
+    }
+  }
+}
